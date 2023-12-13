@@ -1,4 +1,4 @@
-# Welcome to the Web Development Full Course repository! 🚀
+# Welcome to the Web Development Frontend Full Course repository! 🚀
 
 Embark on a coding adventure with our comprehensive GitHub repository, designed for both beginners and seasoned developers looking to master the intricacies of frontend development.
 
