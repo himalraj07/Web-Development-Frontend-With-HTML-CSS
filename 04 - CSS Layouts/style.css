@@ -1,7 +1,7 @@
 * {
-    /* border-top: 10px solid #1098ad; */
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* PAGE SELECTIONS */
@@ -15,26 +15,18 @@ body {
 }
 
 .container {
-    width: 800px;
-    /* margin-left: auto;
-    margin-right: auto; */
+    width: 1200px;
     margin: 0 auto;
 }
 
 .main-header {
     background-color: #f7f7f7;
-    background-color: red;
-    /* padding: 20px;
-    padding-left: 40px;
-    padding-right: 40px; */
     padding: 20px 40px;
     margin-bottom: 60px;
-    /* height: 80px; */
 }
 
 nav {
     font-size: 18px;
-    /* text-align: center; */
 }
 
 article {
@@ -43,7 +35,6 @@ article {
 
 .post-header {
     margin-bottom: 40px;
-    /* position: relative; */
 }
 
 /* SMALLER ELEMENTS */
@@ -52,10 +43,7 @@ aside {
     background-color: #f7f7f7;
     border-top: 5px solid #1098ad;
     border-bottom: 5px solid #1098ad;
-    /* padding-top: 50px;
-    padding-bottom: 50px; */
-    padding: 50px 0;
-    width: 500px;
+    padding: 50px 40px;
 }
 
 h1, h2, h3 {
@@ -66,7 +54,6 @@ h1 {
     font-size: 26px;
     text-transform: uppercase;
     font-style: italic;
-    /* text-align: center; */
 }
 
 h2 {
@@ -84,6 +71,7 @@ h4 {
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 p {
@@ -100,20 +88,11 @@ ul, ol {
 li {
     font-size: 20px;
     margin-bottom: 10px;
-    /* display: inline; */
 }
 
 li:last-child {
     margin-bottom: 0;
 }
-
-/* footer p {
-    font-size: 16px;
-} */
-
-/* article header p {
-    font-style: italic;
-} */
 
 #author {
     font-style: italic;
@@ -129,23 +108,10 @@ li:last-child {
     font-weight: bold;
 }
 
-/* ul {
-    list-style: none;
-} */
-
 .related {
     list-style: none;
+    margin-left: 0;
 }
-
-
-
-/* body {
-    background-color: orangered;
-} */
-
-/* .first-li {
-    font-weight: bold;
-} */
 
 li:first-child {
     font-weight: bold;
@@ -154,15 +120,6 @@ li:first-child {
 li:last-child {
     font-style: italic;
 }
-
-/* li:nth-child(even) {
-    color: red;
-} */
-
-/* Misconseption: this won't work!
-article p:first-child {
-    color: red;
-} */
 
 .images {
     border-radius: 10px;
@@ -176,7 +133,6 @@ a:link {
 }
 
 a:visited {
-    /* color: blue; */
     color: #1098ad;
 }
 
@@ -198,12 +154,6 @@ a:active {
 }
 
 nav a:link {
-    /* background-color: orangered;
-    margin: 20px;
-    padding: 20px;
-
-    display: block; */
-
     margin-right: 30px;
     margin-top: 10px;
     display: inline-block;
@@ -217,11 +167,7 @@ button {
     font-size: 22px;
     padding: 20px;
     cursor: pointer;
-
     position: absolute;
-    /* top: 50;
-    left: 50; */
-
     bottom: 50px;
     right: 50px;
 }
@@ -232,7 +178,6 @@ h1::first-letter {
 }
 
 h2 {
-    /* background-color: orange; */
     position: relative;
 }
 
@@ -250,28 +195,6 @@ h2::before {
     border-radius: 5px;
 }
 
-/* Resolving Conflicts
-#copyright {
-    color: red;
-}
-
-.copyright {
-    color: blue;
-}
-
-.text {
-    color: yellow;
-}
-
-footer p {
-    color: green !important;
-} */
-
-/* nav a:link,
-nav p {
-    font-size: 18px;
-} */
-
 /* FLOATS */
 .author-image{
     float: left;
@@ -279,7 +202,6 @@ nav p {
 }
 
 .author {
-    /* padding-left: 80px; */
     float: left;
     margin-top: 10px;
     margin-left: 20px;
@@ -301,4 +223,20 @@ nav {
     clear: both;
     content: '';
     display: block;
+}
+
+article {
+    width: 825px;
+    float: left;
+    border-radius: 10px;
+}
+
+aside {
+    width: 300px;
+    float: right;
+    border-radius: 10px;
+}
+
+footer {
+    clear: both;
 }
