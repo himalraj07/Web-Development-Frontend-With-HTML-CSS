@@ -28,5 +28,3 @@ Stay in sync with the latest in frontend development, as our repository receives
 ### Ready to explore the world of frontend development? Clone the repository, follow the steps, and let's code together!
 
 ## Happy coding! 🚀🌐
-
-#FrontendDevelopment #WebDevJourney
