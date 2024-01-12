@@ -25,7 +25,7 @@ Paragraph default: 1.6
 
 - Primary: #e67e22
 - Tints: #fdf2e9 #fae5d3 #eb984e
-- Shades: #cf711f
+- Shades: #cf711f #45260a
 - Accents:
 - Greys: #555 #333
 #6F6F6F (lightest grey allowed on #fdf2e9)
